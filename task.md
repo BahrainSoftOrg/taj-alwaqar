@@ -1,0 +1,28 @@
+# Task Checklist for Taj Alwaqar
+
+- [ ] **Phase 1: Project Scaffolding & Data Modeling**
+  - [ ] Initialize React Native (Expo) project in `src-app`
+  - [ ] Initialize C# Console App in `src-audio-analyzer`
+  - [ ] Define shared TypeScript interfaces for Quran structure (Readers, Suras, Verses, etc.)
+- [ ] **Phase 2: Data Extraction & API Integration**
+  - [ ] Fetch Quran metadata (Readers, Suras, Verses, Juz, Pages, Audio files) from selected APIs
+  - [ ] Generate structured JSON file of the Quran metadata
+- [ ] **Phase 3: Audio Analyzer Tool (C#)**
+  - [ ] Implement gradual audio file downloading with resume support
+  - [ ] Integrate NAudio for audio analysis
+  - [ ] Implement logic to detect and generate pause pointers for long verses
+  - [ ] Export pause pointers as a JSON file for the mobile app
+- [ ] **Phase 4: Mobile App Core functionalities**
+  - [ ] Setup State Management (Zustand) and Local Storage (MMKV or AsyncStorage)
+  - [ ] Integrate Audio Playback using `expo-av`
+  - [ ] Implement audio selection, play, pause, resume, and forward/backward navigation
+  - [ ] Integrate audio cues (quick review, entering long verse) and settings volume control
+- [ ] **Phase 5: Memorization Plans**
+  - [ ] Implement Step-wise plan generation logic based on selected Juz
+  - [ ] Create UI for viewing list of steps and daily goals
+  - [ ] Build configuration UI for custom plans (repetition, reverse order, pause logic, extra pauses)
+  - [ ] Implement logic to calculate daily goal (Wird) based on Minimum/Maximum (Suras/Pages)
+- [ ] **Phase 6: Daily Goals Tracking & UI Polish**
+  - [ ] Track achievements of daily goals
+  - [ ] Generate shareable image for daily goals (WhatsApp sharing)
+  - [ ] Localization support (Arabic and English)
