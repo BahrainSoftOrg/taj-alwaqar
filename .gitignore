@@ -1,1 +1,5 @@
+```gitignore
 docs/~$*.xlsx
+src-audio-analyzer/bin/
+src-audio-analyzer/obj/
+```
