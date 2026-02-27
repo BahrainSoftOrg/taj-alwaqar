@@ -1,8 +1,8 @@
 # Taj Alwaqar
 
-This is an islamic mobile app. The purpose of this app is to provide Quran memorization assistance by allowing users to create "steps" in a step-wise plan for audio playback.
-
 In a busy life where its sometimes difficult to find time to memorize the holy Quran, the app provides a way to aid the memorizers by being able to listen to Quran but with memorization as a key goal.
+
+This is an islamic mobile app. The purpose of this app is to provide Quran memorization aid by allowing users to create "steps" in a step-wise plan for audio playback, with daily goals (aka Daily Wird ورد), and resume support to continue where you left off.
 
 There are many Quran recitation applications, but none of them are centered around the goal of memorization aid.
 
@@ -35,13 +35,14 @@ A step is a segment of the Quran that is played back to the user. It is used to 
 
 ### Memorization plans generation
 
-1. Pre-configured memorization plan settings (quick setup)
 1. Step-wise plan generation
 1. Interface to preview the step-wise plan: List of steps, and list of daily goals (aka Daily Wird ورد).
-1. Selection of the Juz to generate the plan on.
-1. Allow generation of multiple plans, each with its own progress and settings.
-1. User can select the plan to use.
-1. Memorization plan settings:
+1. Dropdown to select the Juz to generate the plan on.
+1. Allow generation of multiple plans, each with its own selected Juz, progress and settings.
+1. User can select the plan to use, or generate a new plan.
+1. Pre-configured memorization plans: Child plan, Adult plan.
+1. User can select custom memorization plan instead of quick setup.
+1. Memorization plan settings (for custom plans):
     1. Repetition of verses / ayat: None, 1x, 2x, 3x, and so on
     1. Reverse order of suras: Start from the last sura in the Juz instead of first sura
     1. Enable extra pauses in long verses / ayat
@@ -92,7 +93,8 @@ The purpose of this app is to analyze the audio files and generate pause pointer
 # Future Enhancements
 1. Add more user interface languages.
 1. Host generated long ayas pause pointers files on a server, and allow in-app download of the updated pause pointers from the server.
-1. Allow user to export and share memorization plan settings, and import them from others.
+1. Allow user to export and share custom memorization plan settings, and import them from others.
+1. Add more pre-defined memorization plans. Examples: for the blind, for the elderly, for the fast learners, for the slow learners, etc.
 
 
 # Development notes
