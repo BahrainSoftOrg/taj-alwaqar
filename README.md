@@ -66,7 +66,7 @@ A step is a segment of the Quran that is played back to the user. It is used to 
 1. Git
 1. Node JS
     1. Configure powershell execution policy: `Set-ExecutionPolicy RemoteSigned`
-    1. Expo: npm i -g expo-cli
+    1. Install Expo: npm i -g expo-cli
     1. Install dependencies: npm i
 1. Visual Studio Code
 1. Java JDK
