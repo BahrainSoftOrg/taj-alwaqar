@@ -76,6 +76,14 @@ The purpose of this app is to analyze the audio files and generate pause pointer
     * Everayah.com (https://everyayah.com/data/)
     * Quran.com (https://api.quran.com/api/v4/)
     * Alquran.cloud (https://api.alquran.cloud/v1/)
+1. Extract Quran structured information from the above API sources, such as:
+    * Readers / Sheikhs
+    * Suras
+    * Verses / ayat
+    * Juz
+    * Page numbers
+    * Audio files
+1. Define and maintain a well structured JSON file of the Quran structure information based on above extracted information. It should work seamlessly with the long ayas pause pointers file and the rest of the application features. Prefer that these structures are defined in a TypeScript Interface or Type.
 
 # Current Limitations
 1. Plan generation only supports 1 Juz selection. You cannot select Suras for the plan, and you cannot select more than 1 Juz. But you can generate multiple plans.
