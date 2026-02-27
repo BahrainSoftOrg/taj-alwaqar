@@ -85,6 +85,8 @@ The purpose of this app is to analyze the audio files and generate pause pointer
     * Page numbers
     * Audio files
 1. Define and maintain a well structured JSON file of the Quran structure information based on above extracted information. It should work seamlessly with the long ayas pause pointers file and the rest of the application features. Prefer that these structures are defined in a TypeScript Interface or Type.
+1. State management: No technology preference. Choose something modern, lightweight, and has plenty of documentation and community support.
+1. Local database management: No technology preference. Choose something modern, lightweight, and has plenty of documentation and community support. We can also opt to use JSON files instead of a local database (if it makes sense).
 
 # Current Limitations
 1. Plan generation only supports 1 Juz selection. You cannot select Suras for the plan, and you cannot select more than 1 Juz. But you can generate multiple plans.
