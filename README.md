@@ -18,7 +18,7 @@ A step is a segment of the Quran that is played back to the user. It is used to 
 
 # Functional Features
 
-## App 1: Mobile App "Taj Alwaqar"
+## App 1: Mobile App "Taj Alwaqar" [Folder: src-app]
 
 ### Audio playback
 
@@ -33,7 +33,7 @@ A step is a segment of the Quran that is played back to the user. It is used to 
     1. Playback volume.
     1. Audio cues volume.
 
-### Memorization plans generation 
+### Memorization plans generation
 
 1. Pre-configured memorization plan settings (quick setup)
 1. Step-wise plan generation
@@ -60,7 +60,7 @@ A step is a segment of the Quran that is played back to the user. It is used to 
 1. Track the daily goals achieved.
 1. Share daily goals achieved as an image file that can be sent on WhatsApp.
 
-## App 2: Audio Analyzer
+## App 2: Audio Analyzer [Folder: src-audio-analyzer]
 
 The purpose of this app is to analyze the audio files and generate pause pointers for long verses / ayat in order to break them down into smaller segments.
 
