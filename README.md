@@ -12,8 +12,8 @@ This is not a replacement of traditional Quran memorizaion, but rather an aid to
 
 A step is a segment of the Quran that is played back to the user. It is used to divide the Quran into manageable chunks for memorization. Things that are considered steps:
 
-1. Aya
-1. Each repetition of the aya
+1. Verse / aya
+1. Each repetition of the verse / aya
 
 # Functional Features
 
@@ -25,22 +25,27 @@ A step is a segment of the Quran that is played back to the user. It is used to 
 1. Support resuming from step that you stopped last time
 1. Navigation between steps
 1. Go back or forward in steps: 1x step, 5x steps, 10x steps.
+1. Audio queue when entering quick review mode (If enabled in plan settings).
+1. Audio queue when entering long verse / aya.
+1. Settings:
+    1. Enable/Disable any of the above audio queues.
+    1. Playback volume.
 
 ### Memorization plans generation 
 
 1. Pre-configured memorization plan settings (quick setup)
 1. Step-wise plan generation
-1. Interface to preview the step-wise plan.
+1. Interface to preview the step-wise plan: List of steps, and list of daily goals (aka Daily Wird ورد).
 1. Selection of the Juz to generate the plan on.
 1. Allow generation of multiple plans, each with its own progress and settings.
 1. User can select the plan to use.
 1. Memorization plan settings:
-    1. Repitition of ayat: None, 1x, 2x, 3x, and so on
+    1. Repitition of verses / ayat: None, 1x, 2x, 3x, and so on
     1. Reverse order of suras: Start from the last sura in the Juz instead of first sura
     1. Enable extra pauses in long verses / ayat
-    1. Enable pause after each aya
-    1. Pause duration multiplier (1x, 1.5x, 2x) based on the duration of the aya being played
-    1. Enable quick review: just before reaching the daily goal, it will play back the steps you have reached but without repitition of ayat.
+    1. Enable pause after each verse / aya
+    1. Pause duration multiplier (1x, 1.5x, 2x) based on the duration of the verse / aya being played
+    1. Enable quick review: just before reaching the daily goal, it will play back the steps you have reached but without repitition of verses / ayat.
     1. Setting of daily goal (aka Daily Wird ورد):
         1. After finishing number of suras (Applicable for short suras)
         1. After finishing number of pages (Applicable for long suras)
@@ -48,7 +53,7 @@ A step is a segment of the Quran that is played back to the user. It is used to 
             * Suras = 3, Pages = 5, but the 3 suras are very short (they fit in 1 page), so the minimum option will be 1 page and the maximum option will be 5 pages.
             * Suras = 3, Pages = 5, but the 3 suras are very long (they fit in 40 pages), so the minimum option will be 5 pages and the maximum option will be 40 pages.
 
-### Daily goal / Daily Wird ورد tracker    
+### Daily goal (aka Daily Wird ورد) achievements
 
 1. Track the daily goals achieved.
 1. Share daily goals achieved as an image file that can be sent on WhatsApp.
