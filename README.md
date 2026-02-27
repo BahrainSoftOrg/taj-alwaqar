@@ -1,7 +1,12 @@
 # Taj Alwaqar
 
-This is a mobile app built on Expo React Native.
-The purpose of this app is to provide Quran memorization assistance by allowing users to create step-wise plans for audio playback.
+This is an islamic mobile app. The purpose of this app is to provide Quran memorization assistance by allowing users to create "steps" in a step-wise plan for audio playback.
+
+In a busy life where its sometimes difficult to find time to memorize the holy Quran, the app provides a way to aid the memorizers by being able to listen to Quran but with memorization as a key goal.
+
+There are many Quran recitation applications, but none of them are centered around the goal of memorization aid.
+
+This is not a replacement of traditional Quran memorizaion, but rather an aid to make memorization easier.
 
 ## What is a step?
 
