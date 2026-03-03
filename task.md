@@ -1,8 +1,8 @@
 # Task Checklist for Taj Alwaqar
 
 - [ ] **Phase 1: Project Scaffolding & Data Modeling**
-  - [ ] Initialize React Native (Expo) project in `src-app`
-  - [ ] Initialize C# Console App in `src-audio-analyzer`
+  - [x] Initialize React Native (Expo) project in `src-app`
+  - [x] Initialize C# Console App in `src-audio-analyzer`
   - [ ] Define shared TypeScript interfaces for Quran structure (Readers, Suras, Verses, etc.)
 - [ ] **Phase 2: Data Extraction & API Integration**
   - [ ] Fetch Quran metadata (Readers, Suras, Verses, Juz, Pages, Audio files) from selected APIs
