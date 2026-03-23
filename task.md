@@ -3,6 +3,7 @@
 - [ ] **Phase 1: Project Scaffolding & Data Modeling**
   - [x] Initialize React Native (Expo) project in `src-app`
   - [x] Initialize C# Console App in `src-audio-analyzer`
+  - [ ] Use OpenAPI / Swagger to create TypeScript interfaces for the APIs to be used.
   - [ ] Define shared TypeScript interfaces for Quran structure (Readers, Suras, Verses, etc.)
 - [ ] **Phase 2: Data Extraction & API Integration**
   - [ ] Fetch Quran metadata (Readers, Suras, Verses, Juz, Pages, Audio files) from selected APIs
